@@ -1,6 +1,14 @@
 check-archived
 ==============
 
+Usage
+-----
+
+```
+$ check-archived --version
+$ check-archived target-folder archive-folder
+```
+
 Objective
 ---------
 

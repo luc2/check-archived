@@ -29,13 +29,16 @@ import (
 	"github.com/spf13/viper"
 )
 
+const version = "0.3.0"
+
 var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "check-archived",
-	Short: "Check files are archived",
-	Long:  `Check that all files in a folder are already in another folder.`,
+	Use:     "check-archived",
+	Version: version,
+	Short:   "Check files are archived",
+	Long:    `Check that all files in a folder are already in another folder.`,
 	// Uncomment the following line if your bare application
 	// has an action associated with it:
 	// Run: func(cmd *cobra.Command, args []string) { },
